@@ -1,6 +1,8 @@
 import "./App.css";
 import styled from "styled-components";
 import { MEDIA_QUERY_MD, MEDIA_QUERY_LG } from "./constants/style";
+import React from "react";
+import PropTypes from "prop-types";
 
 const TodoItemWrapper = styled.div`
   display: flex;
@@ -73,6 +75,7 @@ export default function TodoItem({
       <TodoContent $isFinished={todo.isFinished} size={size}>
         {todo.content}
       </TodoContent>
+      <a href={window.encodeURIComponent(todo.content)}>click me!</a>
       <TodoButtonWrapper>
         <Button onClick={handleToggleClick}>
           {todo.isFinished && "未完成"}
@@ -83,3 +86,15 @@ export default function TodoItem({
     </TodoItemWrapper>
   );
 }
+
+TodoItem.propTypes = {
+  className: PropTypes.string,
+  size: PropTypes.string.isRequired,
+  todo: PropTypes.shape({
+    id: PropTypes.number,
+    content: PropTypes.string,
+    isFinished: PropTypes.bool,
+  }),
+  handleDeleteTodo: PropTypes.func,
+  handleToggleIsFinished: PropTypes.func,
+};
