@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/react-message-board-test/static/js/main.00776d37.chunk.js",
+    "main.js.map": "/react-message-board-test/static/js/main.00776d37.chunk.js.map",
+    "runtime-main.js": "/react-message-board-test/static/js/runtime-main.7460cc69.js",
+    "runtime-main.js.map": "/react-message-board-test/static/js/runtime-main.7460cc69.js.map",
+    "static/js/2.bf82ce89.chunk.js": "/react-message-board-test/static/js/2.bf82ce89.chunk.js",
+    "static/js/2.bf82ce89.chunk.js.map": "/react-message-board-test/static/js/2.bf82ce89.chunk.js.map",
+    "static/js/3.4fb773de.chunk.js": "/react-message-board-test/static/js/3.4fb773de.chunk.js",
+    "static/js/3.4fb773de.chunk.js.map": "/react-message-board-test/static/js/3.4fb773de.chunk.js.map",
+    "index.html": "/react-message-board-test/index.html",
+    "static/js/2.bf82ce89.chunk.js.LICENSE.txt": "/react-message-board-test/static/js/2.bf82ce89.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7460cc69.js",
+    "static/js/2.bf82ce89.chunk.js",
+    "static/js/main.00776d37.chunk.js"
+  ]
+}
